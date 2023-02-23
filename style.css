@@ -4,26 +4,43 @@
     box-sizing: border-box;
 }
 
-.content {
-    height: 100vh;
-    width: 100vw;
-    background-color:darkblue;
-    color: white;
-    left: 20vw;
-}
-
 .sidebar-div {
+    position: fixed;
+    z-index: 3;
     height: 100vh;
     background-color: darkgoldenrod;
     width: 20vw;
-    position: absolute;
 }
 
 .header {
+    position: absolute;
+    z-index: 2;
     background-color: darkgray;
     color: black;
     left: 20vw;
-    position: absolute;
     width: 80vw;
     height: 15vh;
+}
+
+.content {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color:darkblue;
+    display: grid;
+    color: white;
+    left: 20vw;
+    top: 15vh;
+}
+
+.card-div {
+    border: white;
+}
+
+.update-div {
+    border: white;
+}
+
+.recent-div {
+    border: white;
 }
