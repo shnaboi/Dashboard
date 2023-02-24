@@ -92,3 +92,25 @@
     border: white;
     grid-area: recent;
 }
+
+.recent-title {
+    border: 2px solid white;
+    margin: 12px;
+    height: 8%;
+}
+
+.recent-box {
+    padding: 8px;
+    background-color: white;
+    color: black;
+    margin: 24px;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.recent-post {
+    display: grid;
+    grid-auto-flow: column;
+    height: 20%;
+    margin: 5% 0%;
+}
