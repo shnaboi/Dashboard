@@ -47,42 +47,53 @@
 .card-title {
     border: 2px solid white;
     margin: 8px;
-    height: 5%;
+    height: 2rem;
 }
 
 .cards {
     display: grid;
-    grid-template: 31% 31% 31%/ 47% 47%;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
     height: 90%;
 }
 
 .card {
-    border: 1px solid red;
-    background-color: white;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
     color: rgb(0, 21, 20);
     margin: 12px;
+    border-radius: 8px;
 }
 
 .update-div {
     position: relative;
     border: white;
     grid-area: update;
+    /* border: 1px solid red; */
 }
 
 .update-title {
     border: 2px solid white;
     margin: 12px;
-    height: 8%;
+    height: 2rem;
 }
 
 .updates {
+    position: absolute;
     padding: 8px;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     color: black;
-    margin: 24px;
-    height: 80%;
-    border-radius: 5px;
+    margin: 12px;
+    border-radius: 8px;
     justify-content: center;
+}
+
+.update-name {
+    font-weight: 800;
+    font-size: medium;
+}
+
+.updates p {
+    font-size: small;
 }
 
 .updates hr {
@@ -98,16 +109,17 @@
 .recent-title {
     border: 2px solid white;
     margin: 12px;
-    height: 8%;
+    height: 2rem;
 }
 
 .recent-box {
+    position: relative;
     padding: 8px;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     color: black;
-    margin: 24px;
+    margin: 12px;
     height: 70%;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .recent-post {
@@ -116,3 +128,7 @@
     height: 20%;
     margin: 5% 0%;
 }
+
+/* secondary colors: 
+232, 135, 30 Fulvous
+39, 93, 173 Denim
