@@ -44,7 +44,7 @@
     width: 100%;
 }
 
-.card-title {
+.card-div-title {
     border: 2px solid white;
     margin: 8px;
     height: 2rem;
@@ -57,12 +57,27 @@
 }
 
 .card {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
     border: 1px solid rgb(245, 245, 245);
     background-color: rgb(245, 245, 245);
     color: rgb(0, 21, 20);
     margin: 12px;
     border-radius: 8px;
+    text-align: left;
+    padding: 5%;
 }
+
+.card-title {
+    color: rgb(0, 21, 20);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* .card p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+} */
 
 .update-div {
     position: relative;
