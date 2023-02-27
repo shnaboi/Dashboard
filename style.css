@@ -33,15 +33,16 @@
     top: 15vh;
     display: grid;
     grid-template-areas: 
-    "card card card card update"
-    "card card card card recent";
+    "card card update"
+    "card card recent";
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card-div {
-    position: relative;
     grid-area: card;
+    position: relative;
     border: 2px dashed white;
-    width: 100%;
+    min-width: 0;
 }
 
 .card-div-title {
@@ -80,10 +81,14 @@
 } */
 
 .update-div {
-    position: relative;
-    border: white;
     grid-area: update;
-    /* border: 1px solid red; */
+    position: relative;
+    border: 2px dashed white;
+    min-width: 0;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0px;
+    margin: 0px;
 }
 
 .update-title {
@@ -117,8 +122,12 @@
 }
 
 .recent-div {
-    border: white;
     grid-area: recent;
+    border: white;
+    border: 2px dashed white;
+    min-width: 0;
+    min-height: 0;
+    max-height: 100%;
 }
 
 .recent-title {
