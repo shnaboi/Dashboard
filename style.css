@@ -13,6 +13,13 @@
     width: 20vw;
 }
 
+.sidebar-logo {
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    margin: 24px 0px;
+}
+
 .header {
     position: absolute;
     z-index: 2;
