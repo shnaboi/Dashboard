@@ -20,6 +20,16 @@
     margin: 24px 0px;
 }
 
+.sidebar-content-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.sidebar-content {
+    border: 2px dashed white;
+    align-items: center;
+}
+
 .header {
     position: absolute;
     z-index: 2;
