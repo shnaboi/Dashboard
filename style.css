@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .sidebar-div {
@@ -99,17 +100,19 @@
 .card {
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
-    border: 1px solid rgb(245, 245, 245);
     background-color: rgb(245, 245, 245);
     color: rgb(0, 21, 20);
+    border-left: .5rem solid #e8871e;
     margin: 12px;
     border-radius: 8px;
     text-align: left;
     padding: 5%;
+    box-shadow: 3px 3px 6px -2px rgb(0, 21, 20);
 }
 
 .card-title {
     color: rgb(0, 21, 20);
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     font-size: 18px;
 }
