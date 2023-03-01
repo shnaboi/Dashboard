@@ -14,45 +14,6 @@
     width: 20vw;
 }
 
-.sidebar-logo {
-    font-size: large;
-    font-weight: 700;
-    text-align: center;
-    margin: 24px 0px;
-}
-
-.sidebar-content-top {
-    position: absolute;
-    top: 6rem;
-    width: 100%;
-}
-
-.sidebar-content-bottom {
-    position: absolute;
-    bottom: 2rem;
-    width: 100%;
-}
-
-.sidebar-content {
-    display: flex;
-    /* border: 1px dashed white; */
-    align-items: center;
-    padding: .7rem 1rem;
-    gap: .7rem;
-    transition: .2s;
-}
-
-.sidebar-content img {
-    max-height: 10%;
-    max-width: 10%;
-}
-
-.sidebar-content:hover {
-    background-color: white;
-    color: rgb(0, 21, 20);
-    box-shadow: 0 8px 6px -6px black;
-}
-
 .header {
     position: absolute;
     z-index: 2;
@@ -107,7 +68,7 @@
     border-radius: 8px;
     text-align: left;
     padding: 5%;
-    box-shadow: 3px 3px 6px -2px rgb(0, 21, 20);
+    box-shadow: 3px 3px 12px -4px rgb(0, 21, 20);
 }
 
 .card-title {
