@@ -5,25 +5,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.sidebar-div {
-    position: fixed;
-    z-index: 3;
-    height: 100vh;
-    background-color: rgb(107, 5, 4);
-    color: white;
-    width: 20vw;
-}
-
-.header {
-    position: absolute;
-    z-index: 2;
-    background-color: rgb(0, 21, 20);
-    color: white;
-    left: 20vw;
-    width: 80vw;
-    height: 15vh;
-}
-
 .content {
     position: relative;
     height: 85vh;
