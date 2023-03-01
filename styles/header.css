@@ -20,6 +20,29 @@
     padding: 1rem;
 }
 
+input {
+    height: 1.5rem;
+    border: 1px solid rgb(0, 21, 20);
+    border-radius: 1.5rem 0px 0px 1.5rem;
+    padding-left: .5rem;
+    margin: 0px;
+}
+
+.header-top-left button {
+    position: absolute;
+    height: 1.5rem;
+    border: 1px solid rgb(0, 21, 20);
+    border-radius: 0px 1.5rem 1.5rem 0px;
+    width: 2rem;
+}
+
+.header-top-left button img {
+    position: absolute;
+    height: 1.2rem;
+    left: .2rem;
+    top: .1rem;
+}
+
 .header-top-right {
     position: absolute;
     right: 2rem;
