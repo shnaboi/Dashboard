@@ -8,6 +8,7 @@
     left: 20vw;
     width: 80vw;
     height: 15vh;
+    box-shadow: 0 0px 6px 0px rgb(0, 21, 20);
 }
 
 .header-top {

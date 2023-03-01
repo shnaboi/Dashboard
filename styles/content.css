@@ -9,7 +9,7 @@
     position: relative;
     height: 85vh;
     width: 80vw;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(221, 221, 221);
     color: white;
     left: 20vw;
     top: 15vh;
@@ -23,7 +23,7 @@
 .card-div {
     grid-area: card;
     position: relative;
-    border: 2px dashed white;
+    /* border: 2px dashed white; */
     min-width: 0;
 }
 
@@ -42,7 +42,7 @@
 .card {
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(251, 247, 244);
     color: rgb(0, 21, 20);
     border-left: .5rem solid #e8871e;
     margin: 12px;
@@ -84,7 +84,7 @@
 .updates {
     position: absolute;
     padding: 8px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(251, 247, 244);
     color: black;
     margin: 12px;
     border-radius: 8px;
@@ -123,7 +123,7 @@
 .recent-box {
     position: relative;
     padding: 8px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(251, 247, 244);
     color: black;
     margin: 12px;
     height: 70%;
