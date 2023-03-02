@@ -51,6 +51,20 @@ input {
     flex-direction: row;
 }
 
+.header-top-right button {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin: 0px 1rem;
+}
+
+.header-top-right button:hover {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
 .header-bottom {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
