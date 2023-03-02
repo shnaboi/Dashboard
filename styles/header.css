@@ -74,7 +74,7 @@ input {
 .header-top-right button:hover {
     width: 1.6rem;
     height: 1.6rem;
-    cursor: pointer;
+    box-shadow: none;
 }
 
 .header-top-right img {
@@ -105,7 +105,7 @@ input {
 
 .greeting {
     /* border: 1px dashed white; */
-    margin-top: .35rem;
+    margin-top: .5rem;
 }
 
 .greeting p {
@@ -114,12 +114,31 @@ input {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .header-bottom-right {
-    position: absolute;
+    position: relative;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     right: 2rem;
+    /* border: 1px dashed white; */
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-bottom-right button {
+    font-weight: 500;
+    color: rgb(0, 21, 20);
+    background-color: rgb(251, 247, 244);
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 2px solid rgb(0, 21, 20);
 }
