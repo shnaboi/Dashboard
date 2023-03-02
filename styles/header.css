@@ -1,10 +1,10 @@
 .header {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
     position: absolute;
     z-index: 2;
     background-color: rgb(145, 77, 118);
-    color: white;
+    color: rgb(251, 247, 244);
     left: 20vw;
     width: 80vw;
     height: 15vh;
@@ -34,6 +34,7 @@ input {
     border: 1px solid rgb(0, 21, 20);
     border-radius: 0px 1.5rem 1.5rem 0px;
     width: 2rem;
+    background-color: rgb(251, 247, 244);
 }
 
 .header-top-left button img {
@@ -91,6 +92,29 @@ input {
 .header-bottom-left {
     display: grid;
     grid-template-columns: 100px 1fr;
+    height: 100%;
+    /* border: 1px dashed white; */
+}
+
+.header-bottom-left img {
+    position: relative;
+    height: 3.5rem;
+    border-radius: 100%;
+    margin-left: 1.5rem;
+}
+
+.greeting {
+    /* border: 1px dashed white; */
+    margin-top: .35rem;
+}
+
+.greeting p {
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 1.5rem;
 }
 
 .header-bottom-right {
