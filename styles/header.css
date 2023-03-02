@@ -47,22 +47,40 @@ input {
     position: absolute;
     right: 2rem;
     padding: 1rem;
+    margin: 0px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    font-weight: 500;
+    color: rgb(251, 247, 244);
 }
 
 .header-top-right button {
-    width: 1.5rem;
+    position: relative;
     height: 1.5rem;
-    border-radius: 1.5rem;
+    width: 1.5rem;
     background-color: rgba(255, 255, 255, 0);
+    margin: 0px 2rem;
     border: none;
-    margin: 0px 1rem;
+}
+
+.header-top-right button img {
+    position: relative;
+    height: 100%;
+    left: -.55rem;
 }
 
 .header-top-right button:hover {
     width: 1.6rem;
     height: 1.6rem;
+    cursor: pointer;
+}
+
+.header-top-right img {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+    margin: 0px 1rem;
 }
 
 .header-bottom {
