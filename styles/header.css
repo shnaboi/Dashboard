@@ -17,7 +17,7 @@
 }
 
 .header-top-left {
-    padding: 1rem;
+    padding: 1rem 0px 1rem 3rem;
 }
 
 input {
@@ -74,14 +74,14 @@ input {
 .header-top-right button:hover {
     width: 1.6rem;
     height: 1.6rem;
-    box-shadow: none;
+    border: none;
 }
 
 .header-top-right img {
     height: 2.5rem;
     width: 2.5rem;
     border-radius: 100%;
-    margin: 0px 1rem;
+    margin: 0px .5rem;
 }
 
 .header-bottom {
@@ -94,18 +94,19 @@ input {
     grid-template-columns: 100px 1fr;
     height: 100%;
     /* border: 1px dashed white; */
+    padding: 0px 0px 0px 3rem;
 }
 
 .header-bottom-left img {
     position: relative;
     height: 3.5rem;
     border-radius: 100%;
-    margin-left: 1.5rem;
 }
 
 .greeting {
     /* border: 1px dashed white; */
     margin-top: .5rem;
+    margin-left: -2rem;
 }
 
 .greeting p {
