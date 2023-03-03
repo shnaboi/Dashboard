@@ -7,11 +7,12 @@
     color: rgb(251, 247, 244);
     left: 20vw;
     width: 80vw;
-    height: 15vh;
+    height: 16vh;
     box-shadow: 0 0px 6px 0px rgb(0, 21, 20);
 }
 
 .header-top {
+    position: relative;
     display: grid;
     grid-template-columns: 75% 1fr;
 }
