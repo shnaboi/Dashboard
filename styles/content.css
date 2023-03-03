@@ -7,12 +7,12 @@
 
 .content {
     position: relative;
-    height: 85vh;
-    width: 80vw;
+    height: calc(100vh - 8rem);
+    width: calc(100vw - 14rem);
     background-color: rgb(235, 235, 235);
     color: rgb(0, 21, 20);
-    left: 20vw;
-    top: 15vh;
+    left: 14rem;
+    top: 8rem;
     display: grid;
     grid-template-areas: 
     "card card update"

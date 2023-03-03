@@ -5,9 +5,9 @@
     z-index: 2;
     background-color: rgb(46, 64, 82);
     color: rgb(251, 247, 244);
-    left: 20vw;
-    width: 80vw;
-    height: 16vh;
+    left: 14rem;
+    width: calc(100vw - 14rem);
+    height: 8rem;
     box-shadow: 0 0px 6px 0px rgb(0, 21, 20);
 }
 
