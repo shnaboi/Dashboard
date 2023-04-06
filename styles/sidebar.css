@@ -45,4 +45,10 @@
     background-color: white;
     color: rgb(0, 21, 20);
     box-shadow: 0 2px 12px -2px rgb(0, 21, 20);
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
